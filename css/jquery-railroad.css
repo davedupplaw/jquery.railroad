@@ -1,0 +1,86 @@
+
+.railroad
+{
+	padding-right: 5px;
+}
+
+.railroad div, .railroad svg
+{
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.railroad svg
+{
+	margin-right: 8px;
+}
+
+.railroad div div
+{
+	margin-top: 15px;
+}
+
+.railroad div div.railroad_lineIntersection_info_line
+{
+	margin: 0;
+	padding: 0;
+}
+
+.railroad > div,
+.railroad > svg
+{
+	clear: left;
+}
+
+.railroad_station_name,
+.railroad_intersection_name,
+.railroad_line_name
+{
+	width: 130px;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.railroad .railroad_station,
+.railroad .railroad_intersection,
+.railroad .railroad_lineIntersection
+{
+	overflow: hidden;
+}
+
+.railroad div div.railroad_lineIntersection_line
+{
+	clear: left;
+	margin: 0;
+	padding: 0;
+}
+
+.railroad_lineIntersection_info_line
+{
+	clear: left;
+	margin: 0;
+	padding: 0;
+}
+
+.railroad .railroad_display
+{
+	margin: 0;
+	padding: 0;
+}
+
+.railroad .railroad_lineIntersection_line .railroad_display
+{
+	width: 100%;
+}
+
+.railroad div div.railroad_line_name,
+.railroad div div.railroad_line_description
+{
+	margin: 0;
+}
+
+.railroad div div.railroad_line_name 
+{
+	padding-left: 10px;
+}

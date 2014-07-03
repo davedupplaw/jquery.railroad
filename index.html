@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/jquery-railroad.css" />
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery-railroad.js"></script>
+		<script type="text/javascript">
+
+			$(document).ready( function() {
+
+				$('#railroad').railroad( { colour: "#9C4F19", stationColour: "#9C4F19" } );
+				$('#railroad').railroad( "addEndStop", "Elephant &amp; Castle", "End of the Bakerloo Line", "eadnc", "up");
+				$('#railroad').railroad( "addStation", "Lambeth North", "", "ln");
+				$('#railroad').railroad( "addIntersectingLine", "Jubilee Line", "Intersection East/West", "jl", "#868F98", "down" );
+				$('#railroad').railroad( "addIntersectionStation", "Waterloo", "", "wl" );
+				$('#railroad').railroad( "addIntersectingLine", "Waterloo &amp; City", "Line starts here", "wac", "#4cc1a1", "up" );
+				$('#railroad').railroad( "addIntersectingLine", "Northern Line", "Parallel Lines", "nth", "#000000", "up" );
+				$('#railroad').railroad( "addStation", "Embankment", "", "em");
+				$('#railroad').railroad( "addStation", "Charing Cross", "", "cc");
+				$('#railroad').railroad( "addPredictedLine" );
+
+
+			} );
+
+		</script>
+	</head>
+	<body>
+
+		<div id="railroad"></div>
+
+	</body>
+</html>
