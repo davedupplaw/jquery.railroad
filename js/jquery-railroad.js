@@ -27,7 +27,7 @@ var RailRoadWidget = {
 			this.options.railroadElementWidth/2, this.options.expandedTrack, 
 			this.options.colour, this.options.width ) );
 		svg.append( this._svgCircle( this.options.railroadElementWidth/2, this.options.intersectionSize/2, 
-			this.options.intersectionSize/2, this.options.intersectionColour, this.options.width, 'white' ) );
+			this.options.intersectionSize/2, this.options.intersectionColour, this.options.width, this.options.intersectionCentreColour ) );
 		
 		var wrapperDiv = $("<div class='railroad_display'/>");
 		wrapperDiv.append( svg ).height( this.options.intersectionSize );
@@ -289,6 +289,7 @@ var RailRoadWidget = {
 		railroadElementWidth: 50,
 		intersectionSize: 50,
 		intersectionColour: 'black',
+		intersectionCentreColour: 'white',
 		stationSize: 45,
 		stationColour: 'red',
 		newestAtTop: false,
