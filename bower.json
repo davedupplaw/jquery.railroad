@@ -1,7 +1,7 @@
 {
   "name": "jquery-railroad",
   "version": "1.0.0",
-  "main": [ "./js/jquery-railroad.js" "./css/jquery-railroad.css" ],
+  "main": [ "./js/jquery-railroad.js", "./css/jquery-railroad.css" ],
   "ignore": 
   [
     "packages",
