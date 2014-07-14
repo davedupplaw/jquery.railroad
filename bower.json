@@ -6,7 +6,7 @@
   [
     "packages",
     "images",
-    "index.*",
+    "index.html",
     "README.md",
     ".gitignore"
   ],
