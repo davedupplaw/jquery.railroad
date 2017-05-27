@@ -12,7 +12,9 @@ Installation
 
 Installation is via bower:
 
-  bower install jquery.railroad --save
+```bash
+bower install jquery.railroad --save
+```
 
 ...to get the latest version.
 
